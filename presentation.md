@@ -75,7 +75,7 @@ Ground truth is controlled: **any GWAS inflation is purely stratification artifa
 
 Admixed individuals form **triangle edges** in PC space.
 
-→ [2D Scatter](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main/plots/interactive_pca_scatter_three_way_admixture.html) · [3D (PC1–PC3)](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main/plots/interactive_pca_3d_three_way.html) · [Scree](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main/plots/interactive_scree_three_way_admixture.html)
+→ [2D Scatter](/home/krutarth/courses/compbio/project/plots/interactive_pca_scatter_three_way_admixture.html) · [3D (PC1–PC3)](/home/krutarth/courses/compbio/project/plots/interactive_pca_3d_three_way.html) · [Scree](/home/krutarth/courses/compbio/project/plots/interactive_scree_three_way_admixture.html)
 
 ---
 
@@ -84,7 +84,7 @@ Admixed individuals form **triangle edges** in PC space.
 When 500/560 samples are admixed, **PC axes rotate** to capture variation within the admixed population(to minimize distance).
 PCA loses population resolution.
 
-→ [Scatter](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main/plots/interactive_pca_scatter_admixture_overwhelm.html) · [Scree](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main/plots/interactive_scree_admixture_overwhelm.html)
+→ [Scatter](/home/krutarth/courses/compbio/project/plots/interactive_pca_scatter_admixture_overwhelm.html) · [Scree](/home/krutarth/courses/compbio/project/plots/interactive_scree_admixture_overwhelm.html)
 
 ---
 
@@ -93,10 +93,10 @@ PCA loses population resolution.
 All three cohorts show λ > 1 even with 10 PCs — inflation increases with structural complexity.
 
 **plink2 (PCA correction):**  
-→ [Gradient QQ](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main/plots/interactive_qqplot_admixture_gradient.html) · [Three-way QQ](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main/plots/interactive_qqplot_three_way_admixture.html) · [Overwhelm QQ](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main/plots/interactive_qqplot_admixture_overwhelm.html)
+→ [Gradient QQ](/home/krutarth/courses/compbio/project/plots/interactive_qqplot_admixture_gradient.html) · [Three-way QQ](/home/krutarth/courses/compbio/project/plots/interactive_qqplot_three_way_admixture.html) · [Overwhelm QQ](/home/krutarth/courses/compbio/project/plots/interactive_qqplot_admixture_overwhelm.html)
 
 **BOLT-LMM (GRM-based):**  
-→ [Gradient QQ](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main/plots/interactive_qqplot_admixture_gradient_bolt.html) · [Three-way QQ](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main/plots/interactive_qqplot_three_way_admixture_bolt.html) · [Overwhelm QQ](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main/plots/interactive_qqplot_admixture_overwhelm_bolt.html)
+→ [Gradient QQ](/home/krutarth/courses/compbio/project/plots/interactive_qqplot_admixture_gradient_bolt.html) · [Three-way QQ](/home/krutarth/courses/compbio/project/plots/interactive_qqplot_three_way_admixture_bolt.html) · [Overwhelm QQ](/home/krutarth/courses/compbio/project/plots/interactive_qqplot_admixture_overwhelm_bolt.html)
 
 ---
 
@@ -105,7 +105,7 @@ All three cohorts show λ > 1 even with 10 PCs — inflation increases with stru
 Adding more PCs reduces inflation but **cannot drive λ→1** for admixed cohorts regardless of PC count. Implies that PCA can only account for a few factors. More on that later.  
 ★ markers show BOLT-LMM reference λ for each experiment.
 
-→ [Open interactive plot](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main/plots/interactive_pc_sweep.html)
+→ [Open interactive plot](/home/krutarth/courses/compbio/project/plots/interactive_pc_sweep.html)
 
 ---
 
@@ -115,7 +115,7 @@ Fix N=700 and vary admixed fraction 0→100%.
 Inflation peaks at **intermediate admixture** (50%); fully admixed cohort is homogeneous — λ recovers toward 1.  
 PCA correction (10 PCs) reduces inflation but it cannot for the population stratification in more admixed cohort.
 
-→ [Open interactive plot](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main/plots/interactive_admixture_sweep.html)
+→ [Open interactive plot](/home/krutarth/courses/compbio/project/plots/interactive_admixture_sweep.html)
 
 ---
 
@@ -127,7 +127,7 @@ PC1 cleanly separates EUR from AFR. Yet λ is high even with 10 PCs.
 > PCA corrects mean allele-frequency stratification.
 > It cannot correct **variance in effect sizes** across populations.
 
-→ [PC Sweep (with diff heritability)](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main/plots/interactive_pc_sweep.html) · [plink2 QQ](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main/plots/interactive_qqplot_diff_heritability.html) · [BOLT-LMM QQ](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main/plots/interactive_qqplot_diff_heritability_bolt.html)
+→ [PC Sweep (with diff heritability)](/home/krutarth/courses/compbio/project/plots/interactive_pc_sweep.html) · [plink2 QQ](/home/krutarth/courses/compbio/project/plots/interactive_qqplot_diff_heritability.html) · [BOLT-LMM QQ](/home/krutarth/courses/compbio/project/plots/interactive_qqplot_diff_heritability_bolt.html)
 
 ---
 
