@@ -10,15 +10,15 @@ All experiments use synthetic genotypes from the HAPNEST simulator (1KG+HGDP ref
 
 ## Interactive Plots
 
-All plots are hosted at [kuku929.github.io/pca-gwas](https://kuku929.github.io/pca-gwas).
+All plots are hosted at [kuku929.github.io/pca-gwas](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main).
 
 | Plot | Link |
 |------|------|
-| PC Sweep: λ vs n_PCs | [interactive_pc_sweep](https://kuku929.github.io/pca-gwas/plots/interactive_pc_sweep.html) |
-| Admixture Sweep: λ vs cohort composition | [interactive_admixture_sweep](https://kuku929.github.io/pca-gwas/plots/interactive_admixture_sweep.html) |
-| Three-way PCA scatter (2D) | [pca_scatter](https://kuku929.github.io/pca-gwas/plots/interactive_pca_scatter_three_way_admixture.html) |
-| Three-way PCA scatter (3D) | [pca_3d](https://kuku929.github.io/pca-gwas/plots/interactive_pca_3d_three_way.html) |
-| Admixed majority overwhelm PCA | [pca_overwhelm](https://kuku929.github.io/pca-gwas/plots/interactive_pca_scatter_admixture_overwhelm.html) |
+| PC Sweep: λ vs n_PCs | [interactive_pc_sweep](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main/plots/interactive_pc_sweep.html) |
+| Admixture Sweep: λ vs cohort composition | [interactive_admixture_sweep](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main/plots/interactive_admixture_sweep.html) |
+| Three-way PCA scatter (2D) | [pca_scatter](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main/plots/interactive_pca_scatter_three_way_admixture.html) |
+| Three-way PCA scatter (3D) | [pca_3d](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main/plots/interactive_pca_3d_three_way.html) |
+| Admixed majority overwhelm PCA | [pca_overwhelm](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kuku929/pca-gwas/main/plots/interactive_pca_scatter_admixture_overwhelm.html) |
 
 ## Experiments
 
