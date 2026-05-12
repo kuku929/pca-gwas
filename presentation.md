@@ -58,8 +58,6 @@ $$\lambda = \frac{\text{median}(\chi^2_{\text{obs}})}{0.456}$$
 | > 1.0 | Inflation — false positives from uncorrected structure |
 | < 1.0 | Deflation — overcorrection removed real signal |
 
-Ground truth h²=0.1 with sparse causal SNPs: **any λ ≠ 1 after PCA correction is purely stratification artifact.**
-
 ---
 
 ## Experimental Design
